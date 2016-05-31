@@ -1,0 +1,54 @@
+// Navbar fix
+@media (min-width: 768px)
+.navbar-wrapper {
+    margin-top: 0px;
+}
+
+.navbar-wrapper {
+    margin-top: 0px;
+}
+
+.navbar-wrapper .container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-wrapper .navbar {
+    border-radius: 0px;
+}
+
+.active {
+    background-color: #F36E21;
+}
+
+.nav_active {
+    background-color: #271500;
+}
+
+div#navbar {   
+    width: 507.586px;
+    margin: auto;
+}
+
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand{
+    margin: 0px;
+}
+
+.tiger,
+.jumbotron{
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    padding-top: 80px;
+    background: #F36E21;
+}
+
+a:hover {
+    color: #738F9B; 
+} 
+
+a{
+    color: #BA6222;
+}
