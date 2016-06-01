@@ -123,12 +123,10 @@
         <div class="item active left">
           <div class="container">
             <div class="carousel-caption">
-            <div class="well">
 		<img class="img-circle" src="images/involved.jpg" alt="" width="140" height="140">
               <h2>Get involved!</h2>
               <p>Interested in joining our group? We're looking for people of all skill levels.</p>
               <p><a class="btn btn-default" href="" role="button">Contact us!</a></p>
-              	</div>
             </div>
           </div>
         </div>
