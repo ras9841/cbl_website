@@ -2,14 +2,19 @@
 #myCarousel {
 	display: none;
 }
+
+#d_line {
+	display: block;
+}
+
 .marketing {
 	margin-top: 80px;
 }
 .navbar-inverse .navbar-toggle{
-	background-color: #333;
+	background-color: #002d5c
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #002d5c;
+    background-color: #333;
 }
 
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
@@ -23,6 +28,11 @@ font-size: 21px;
 }
 
 }
+
+#d_line {
+	display: none;
+}
+
 .navbar-inverse .navbar-nav > li > a:hover {
     color: #A89F08;
  }
@@ -90,6 +100,18 @@ height: 85%;
 margin: auto;
 border-width: 2px;
 margin-bottom: 5px;
+color: whitesmoke;
+}
+
+.contact-well {
+background-color: #002d5c;
+width: 75%;
+height: 85%;
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+border-width: 2px;
+color: whitesmoke;
 }
 
 a:hover {

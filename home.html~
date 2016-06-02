@@ -79,6 +79,8 @@
       </div>
     </div> 
 	 <!-- End of Navbar -->
+	 
+	 
 	 <!-- Start of Carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
