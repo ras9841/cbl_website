@@ -91,6 +91,7 @@ div#navbar {
 .carousel-caption p
 {
 	font-size: 16px;
+	padding-bottom: 5%;
 }
 
 .well {
@@ -144,6 +145,13 @@ img {
 	padding-bottom: 10px;
 }
 
+.profpic {
+	height: 200px; 
+	width: 160px;
+	padding: 0px;
+	margin: 0px;
+}
+
 p {
 	padding-top: 10px;
 	margin: auto;
@@ -158,6 +166,22 @@ p {
 }
 
 #active_link {
+	background-color: #002d5c;	
 	color: white;
 }
+
+#active_link > a:hover 
+{
+	background-color: #002d5c;
+	color: white;
+}
+
+#active_link > a 
+{
+	background-color: #002d5c;
+	color: white;
+}
+
+
+
 
