@@ -1,7 +1,16 @@
-// Navbar fix
-@media (min-width: 768px)
-.navbar-wrapper {
-    margin-top: 0px;
+@media only screen and (max-width: 900px){
+#myCarousel {
+	display: none;
+}
+.marketing {
+	margin-top: 80px;
+}
+}
+
+@media only screen and (max-width: 400px){
+h2 {
+font-size: 18px;
+}
 }
 
 .navbar-wrapper {
@@ -56,8 +65,11 @@ div#navbar {
 
 .well {
 background-color: #999999;
-padding: 0px;
-padding-bottom: 10px;
+width: 75%;
+height: 85%;
+margin: auto;
+border-width: 2px;
+margin-bottom: 5px;
 }
 
 
@@ -72,6 +84,27 @@ a{
 .nav_active {
 	background-color: #002d5c;
 	color: white;
+}
+
+h1 {
+	color: black;
+	font-variant: small-caps;
+}
+
+h2 {
+	text-align: center;
+	margin: auto;
+}
+
+img {
+	display: block;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+p {
+	padding-top: 10px;
+	margin: auto;
 }
 
 .navbar-inverse .navbar-nav > li > a {
