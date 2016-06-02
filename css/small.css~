@@ -1,0 +1,33 @@
+@media only screen and (max-width: 900px){
+	#myCarousel {
+		display: none;
+	}
+
+	#d_line {
+		display: block;
+	}
+
+	.marketing {
+		margin-top: 80px;
+	}
+	
+	.navbar-inverse .navbar-toggle{
+		background-color: #002d5c
+	}
+	
+	.navbar-inverse .navbar-toggle:focus, 
+	.navbar-inverse .navbar-toggle:hover {
+   	background-color: #333;
+	}
+
+	.navbar-inverse .navbar-nav > li > a:focus, 
+	.navbar-inverse .navbar-nav > li > a:hover {
+   	color: #fff;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	h2 {
+		font-size: 21px;
+	}
+}

@@ -1,0 +1,54 @@
+#d_line {
+	display: none;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #A89F08;
+ }
+ 
+.navbar-wrapper {
+    margin-top: 0px;
+}
+
+.navbar-wrapper .container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-wrapper .navbar {
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #000000;
+}
+
+div#navbar {   .carousel .item
+    width: 507.586px;
+    margin: auto;
+}
+
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand{
+    margin: 0px;
+}
+
+.navbar{
+	background-color: #ffffff;
+}
+
+
+div#navbar {   
+    width: 507.586px;
+    margin: auto;
+}
+
+.nav_active {
+	background-color: #002d5c;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: black;
+}

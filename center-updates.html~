@@ -27,7 +27,7 @@
 	 <!-- Shortcut icon -->    
     <link rel="shortcut icon" href="images/rit.ico">
 </head>
-<body>
+    <body>
     <div class="navbar-wrapper">
       <div class="container">
 

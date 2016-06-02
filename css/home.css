@@ -1,80 +1,3 @@
-@media only screen and (max-width: 900px){
-#myCarousel {
-	display: none;
-}
-
-#d_line {
-	display: block;
-}
-
-.marketing {
-	margin-top: 80px;
-}
-.navbar-inverse .navbar-toggle{
-	background-color: #002d5c
-}
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #333;
-}
-
-.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
-    color: #fff;
- }
-}
-
-@media only screen and (max-width: 575px){
-h2 {
-font-size: 21px;
-}
-
-}
-
-#d_line {
-	display: none;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover {
-    color: #A89F08;
- }
- 
-.navbar-wrapper {
-    margin-top: 0px;
-}
-
-.navbar-wrapper .container {
-    width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.navbar-wrapper .navbar {
-    border-radius: 0px;
-}
-
-.navbar-inverse .navbar-brand{
-	color: #000000;
-}
-
-div#navbar {   .carousel .item
-    width: 507.586px;
-    margin: auto;
-}
-
-.navbar>.container .navbar-brand, 
-.navbar>.container-fluid .navbar-brand{
-    margin: 0px;
-}
-
-.navbar{
-	background-color: #ffffff;
-}
-
-
-div#navbar {   
-    width: 507.586px;
-    margin: auto;
-}
-
 .jumbotron {
     text-align: center;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
@@ -88,44 +11,55 @@ div#navbar {
     margin: 0px;
 }
 
-.carousel-caption p
-{
+.carousel-caption p {
 	font-size: 16px;
 	padding-bottom: 5%;
 }
 
 .well {
-background-color: #A8A8A8;
-width: 75%;
-height: 85%;
-margin: auto;
-border-width: 2px;
-margin-bottom: 5px;
-color: whitesmoke;
+	background-color: #A8A8A8;
+	width: 75%;
+	height: 85%;
+	margin: auto;
+	border-width: 2px;
+	margin-bottom: 5px;
+	color: whitesmoke;
 }
 
 .contact-well {
-background-color: #002d5c;
-width: 75%;
-height: 85%;
-margin: auto;
-padding-top: 10px;
-padding-bottom: 10px;
-border-width: 2px;
-color: whitesmoke;
+	background-color: #002d5c;
+	width: 75%;
+	height: 85%;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-width: 2px;
+	color: whitesmoke;
+}
+
+#active_link {
+	background-color: #002d5c;	
+	color: white;
+}
+
+#active_link > a:hover 
+{
+	background-color: #002d5c;
+	color: white;
+}
+
+#active_link > a 
+{
+	background-color: #002d5c;
+	color: white;
 }
 
 a:hover {
-    color: #A89F08; 
+	color: #A89F08; 
 } 
 
 a{
     color: #1180A8;
-}
-
-.nav_active {
-	background-color: #002d5c;
-	color: white;
 }
 
 h1 {
@@ -157,30 +91,11 @@ p {
 	margin: auto;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-	color: black;
-}
-
 .carousel .item {
 	background-color: #002d5c;
 }
 
-#active_link {
-	background-color: #002d5c;	
-	color: white;
-}
 
-#active_link > a:hover 
-{
-	background-color: #002d5c;
-	color: white;
-}
-
-#active_link > a 
-{
-	background-color: #002d5c;
-	color: white;
-}
 
 
 

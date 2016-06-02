@@ -7,9 +7,9 @@
     <title>CBL @ RIT</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="./Carousel Template for Bootstrap_files/ie-emulation-modes-warning.js"></script>
-
+    
     <!-- Custom styles for this template -->
     <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
   	 <style>.carbonad,
@@ -27,7 +27,7 @@
 	 <!-- Shortcut icon -->    
     <link rel="shortcut icon" href="images/rit.ico">
 </head>
-<body>
+    <body>
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -65,8 +65,8 @@
                     <li><a href="career_page.html">CAREER Project</a></li>
                     <li><a href="tepi.html">TEPI</a></li>
                     <li><a href="Data-Inversion.html">Data Inversion of Complex Physical Systems</a></li>
-                    <li class="active"><a href="ml_cbl.html">Machine Learning for Precision Medicine</a></li>
-		    <li><a href="Additional.html">Additional Projects</a></li>
+                    <li><a href="ml_cbl.html">Machine Learning for Precision Medicine</a></li>
+		    <li class="active"><a href="Additional.html">Additional Projects</a></li>
                     <li class="divider"></li>
                     <li class="dropdown-header"></li>
                     <li><a href="software.html">Software</a></li>
@@ -83,14 +83,10 @@
 </div></div>
 	<!-- jumbotron -->
 	<div class="jumbotron tiger">
-	<center><h2> Machine Learning for Precision Medicine </h2></center>
+	<center><h2> Additional Projects </h2></center>
 	</div>
 
 <div class="container marketing">
-	<br> <center>
-  	<h2>Project Motivation</h2> </center>
-  	
-<p>An important challenge in disease diagnosis, treatment and prevention is to recognize and address the large variations among patients that may otherwise confound the clinical decision making. While we are at an era with an unprecedented availability of biomedical and healthcare data, it is important for us to be able to tease apart the different factors that contribute to diagnostics versus those that result from inter-subject and intra-subject variations. Developing machine learning algorithms with the ability to recognize and adapt to patient-specific factors have the potential to bring us closer toward the goal of personalized medicine. In the CBL, we are interested in the development of such algorithms as well as their application to important clinical problems.</p>
 	<div class="pane">
   		<table class="table table-hover">
         <thead>
@@ -103,36 +99,52 @@
         <tbody>
             <tr>
                 <td>1</td>
-                <td><a href="#taf">Teasing apart factors</a></td>
-                <td><a href="people.html#shuhang">Shuhang Chen</a>, <a href="people.html#vish">Vishwanath Raman</a>, <a href="people.html#linwei">Linwei Wang</a></td>
+                <td><a href="#iig">Integrated Cardiac Imaging & Imaging Genetics</a></td>
+              <td><a href="people.html#sandesh">Sandesh Ghimire</a>, <a href="people.html#linwei">Linwei Wang</a></td>
             </tr>
             <tr>
-                <td>2</td>
-                <td><a href="#pre">Prediction of ablation targets for scar-related ventricular tachycardia</a></td>
-              	<td><a href="people.html#shuhang">Shuhang Chen</a>, <a href="people.html#vish">Vishwanath Raman</a>, <a href="people.html#linwei">Linwei Wang</a></td>
-            </tr>
+            <td>2</td>
+            <td><a href="#sensor">Multi-Modal Sensor Fusion for Cognitive Monitoring and Stress Detection</a></td>
+            <td>Will Paul, Vasudev Bethamcherla, Brendan John, Taylor Kilroy, Sairamesh Krithika</td>
         </tbody>
     </table>
 	</div>
 
       <hr class="featurette-divider">
-
 <div>
-<h2>1. <a name="taf">Teasing apart factors </a></h2>
-<p>Different approaches are being pursued in the CBL to address the issue of inter-subject variations during machine learning. One approach involves the development of deep network that recognizes representation of diagnostic versus. inter-subject variability features during the learning. Another approach is built upon the concept of multiple task learning to achieve a balance between the learning of a publication model and the learning of a patient-specific model, allowing the transfer of knowledge while learning multiple patient-specific models that share a common structure. </p>
-</div>
+<h2>1. <a name="iig"> Integrated Cardiac Imaging & Imaging Genetics</a></h2>
+
+<p>
+This is an exciting research initiative in the CBL in collaboration with Geisinger Health System (Danville, PA) in an effort to integrate the analysis of patient clinical data (including EHR, ECG, image scans, and other clinical data) and genetic data towards the ultimate goal of precision medicine.
+</p>
+<center>
+<video width="640" height="480" controls>
+<source src="videos/Int.mp4" type="video/mp4">
+</video>
+</center>
+<!-- enter Quick time video -->
 
 <br>
 
-<div>
-<h2>2. <a name="pre">Prediction of Ablation Targets for Scar-related Ventricular Tachycardia</a></h2>
-<p>Ventricular Tachycardia (VT or V-tach) is a very fast heartbeat caused by a malfunction in one of the heart's ventricles. It is a pulse of more than 100 beats per minute with at least three irregular heartbeats in a row. It can occur with or without heart disease and can cause sudden cardiac arrest. One of the minimally invasive procedures used, for treating arrhythmia, is catheter ablation. This procedure involves finding the "bad" tissue in the heart by trial and error and then destroying that tissue responsible for a faulty electrical pathway in the heart.</p>
-<p>Through machine learning techniques described above, we aim to better predict the location of the ablation site for catheter ablation. The initial foray into this started with the use of simple techniques like Support Vector Machines (SVM) and Random Forests, which however did not give a desirably accuracy in predicting the site. This initial interest is now being expanded to more robust techniques such as Multi Task Learning with which we can account for factors such as patient variability along with the individual patient-specific features. Another important aspect of this is the selection of features available from ECG readings which can hugely impact the output. This selection can be done by manually processing and labeling the data, or  the use of Deep Learning techniques, where features are extracted automatically from the data itself. This project involves the appropriate processing of the input (ECG) data to a usable format for various algorithms, as well as the mathematical formulation and improvisation of existing machine learning algorithms.</p>
-<p>The success of narrowing down the prediction of the ablation site can cause a huge difference in the surgery time for catheter ablation, and promises to be a strong approach for an improvement in computational biomedicine techniques
-</p>
 </div>
 
-<hr class="featurette-divider">
+<div>
+<h2>2. <a name="sensor"> Multi-Modal Sensor Fusion for Cognitive Monitoring and Stress Detection</a></h2>
+
+
+<p>The long-term goal of the project is to develop a personal health system that through the fusion of multi-modal sensor signals enables continuous monitoring of personal cognitive load and early detection of the warning signs of stress as a health risk, so as to prevent the associated illness and other adverse events as well as reduce health-care cost.
+</p>
+
+<center> <img src="http://people.rit.edu/lxwast/Linwei_Wangs_HomePage/Research_files/Sensor.jpg"> </center>
+<br>
+<p>This research is funded by the RIT Kodak Endowed Chair Funds. It’s a team effort in collaboration with three other faculty in the area of perception, facial analysis, and linguistics. as well as a group of graduate and undergraduate students.
+</p>
+
+</div>
+
+
+
+     <hr class="featurette-divider">
 
       <!-- FOOTER -->
       <footer>
