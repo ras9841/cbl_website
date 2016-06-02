@@ -5,12 +5,26 @@
 .marketing {
 	margin-top: 80px;
 }
+.navbar-inverse .navbar-toggle{
+	background-color: #333;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #002d5c;
 }
 
-@media only screen and (max-width: 400px){
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff;
+ }
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #A89F08;
+ }
+}
+
+@media only screen and (max-width: 575px){
 h2 {
 font-size: 21px;
 }
+
 }
 
 .navbar-wrapper {
@@ -64,21 +78,21 @@ div#navbar {
 }
 
 .well {
-background-color: #999999;
+background-color: grey;
 width: 75%;
 height: 85%;
 margin: auto;
 border-width: 2px;
 margin-bottom: 5px;
 }
-
+002d5c
 
 a:hover {
-    color: #738F9B; 
+    color: #A89F08; 
 } 
 
 a{
-    color: navajowhite;
+    color: #1180A8;
 }
 
 .nav_active {
