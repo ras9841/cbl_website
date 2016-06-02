@@ -15,9 +15,6 @@
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
     color: #fff;
  }
-.navbar-inverse .navbar-nav > li > a:hover {
-    color: #A89F08;
- }
 }
 
 @media only screen and (max-width: 575px){
@@ -26,7 +23,10 @@ font-size: 21px;
 }
 
 }
-
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #A89F08;
+ }
+ 
 .navbar-wrapper {
     margin-top: 0px;
 }
@@ -65,11 +65,17 @@ div#navbar {
     margin: auto;
 }
 
-.tiger,
-.jumbotron{
+.jumbotron {
     text-align: center;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
     padding-top: 80px;
+}
+
+.line {
+    background-color: #002d5c;
+    height: 70px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .carousel-caption p
@@ -78,14 +84,13 @@ div#navbar {
 }
 
 .well {
-background-color: grey;
+background-color: #A8A8A8;
 width: 75%;
 height: 85%;
 margin: auto;
 border-width: 2px;
 margin-bottom: 5px;
 }
-002d5c
 
 a:hover {
     color: #A89F08; 
@@ -107,6 +112,7 @@ h1 {
 
 h2 {
 	text-align: center;
+	margin: auto;
 	margin: auto;
 }
 
