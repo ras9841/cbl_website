@@ -28,17 +28,11 @@
     <link rel="shortcut icon" href="images/rit.ico">
 </head>
 <body>
+<!-- Start of Navbar -->
     <div class="navbar-wrapper">
       <div class="container">
-
- <!-- NAVBAR
-================================================== -->
- <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container" style="background: #482701">
+          <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -46,24 +40,24 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="home.html" style="color: #B5896F">CBL</a>
+              <a class="navbar-brand" href="home.html">CBL</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav" >
-                <li><a href="home.html" style="color: #B5896F">Home</a></li>
-                <li><a href="about.html" style="color: #B5896F">About</a></li>
-                <li><a href="contact.html" style="color: #B5896F">Contact</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li class="dropdown" >
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="color: #B5896F">People<span class="caret"></span></a>
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">People<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li ><a href="people.html">Current Researchers</a></li>
-                        <li class="active"><a href="past-people.html">Past Researchers </a></li>
+                        <li><a href="people.html">Current Researchers</a></li>
+                        <li><a href="past-people.html">Past Researchers </a></li>
                     </ul>
-                <li class="dropdown nav_active" >
-                  <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="color: #fff">Research<span class="caret"></span></a>
+                <li class="dropdown nav_active">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"  id="active_link">Research<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li><a href="career_page.html">CAREER Project</a></li>
-                    <li class="active"><a href="tepi.html">TEPI</a></li>
+                    <li class="nav_active"><a href="tepi.html" id="active_link">TEPI</a></li>
                     <li><a href="Data-Inversion.html">Data Inversion of Complex Physical Systems</a></li>
                     <li><a href="ml_cbl.html">Machine Learning for Precision Medicine</a></li>
 		    <li><a href="Additional.html">Additional Projects</a></li>
@@ -73,24 +67,23 @@
                     <li><a href="center-updates.html">Center Updates</a></li>
                   </ul>
                 </li>
-		<li><a href="" style="color: #B5896F">Publications</a></li>
+		<li><a href="publications.html">Publications</a></li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
-    </div> <!-- ./navbar -->
-</div></div>
-	<!-- jumbotron -->
-	<div class="jumbotron tiger">
-	<center><h2> Noninvasive Transmural Electrophysiological Imaging </h2></center>
-	</div>
+	 <!-- End of Navbar -->
+   </div>
+   
+<!-- Line -->
+<div class="jumbotron line"></div>
 
+<!-- Start TEPI -->
 <div class="container marketing">
-<br>
-  	<center>
-	<h2>Project Motivation</h2>
-	</center>
+<center><h1> Noninvasive Transmural Electrophysiological Imaging </h1></center>
+<br><br>
+<center>	<h2>Project Motivation</h2> </center>
 	
 <p>Cardiac arrhythmia accounts for increasing risk for all strokes (15%), heart failure, and mortality. The currently used minimally invasive procedure, i.e. catheter ablation, relies on point-by-point contact mapping on the heart surface to construct a 3D map of activation sequence. Such invasive methods make pre-procedural planning infeasible, have limited accuracy and resolution, and involve prolonged and technically challenging mapping process. Transmural electrophysiological imaging (TEPI) is a new concept we introduce to overcome the limitations that have been associated with the current paradigm of invasive mapping. Based on the computational foundation described above, TEPI utilizes noninvasive multi-lead body-surface ECG, followed by an image-based computational algorithm to non-invasively reconstruct the patient-specific intramural electrical dynamics with high resolution. <br><br>This noninvasive, transmrual, and high-resolution tool of arrhythmia imaging will provide better pre-procedural planning and targeting for interventiaonl therapies, increasing procedure efficacy and safety while reducing both time and cost. In the long term, this research will contribute to the safe and efficient use of electrophysiological studies in broader routine clinical practice. <br><br> Supported by NIH, this project's application interests include ablation of scar-related ventricular arrhythmia, atrial fibrillation, and dyssynchrony. </p>
 
@@ -122,81 +115,80 @@
         </tbody>
     </table>
 	</div>
-
       <hr class="featurette-divider">
 
-<div>
-<h2>1. <a name="tad">Theoretical and Algorithmic Development of TEPI </a></h2>
+	<!-- Start of TAD -->
+	<div>
+	<h2 class="title">1. <a name="tad">Theoretical and Algorithmic Development of TEPI </a></h2>
+	<p>
+		This part of the research closely ties to the foundational work supported by the <a href="career_page.html"> CAREER project </a>. 
+	</p> <br>
+	<center> <img src="images/ttepi.jpg"> </center>
+	<p>Research has been published in journals such as <em>IEEE Transactions on Biomedical Engineering</em> and <em>Medical Image Computing 
+	and Computer-Assisted Intervention (MICCAI)</em>.</p> <br> <p class="pull-right"><a href="">Back to top</a></p>
+	<!-- End of TAD -->
+	</div>
 
-<p>
-This part of the research closely ties to the foundational work supported by the <a href="career_page.html"> CAREER project </a>. 
-</p>
-<center> <img src="images/ttepi.jpg"> </center>
-<br>
-<p>Research has been published in journals such as <em>IEEE Transactions on Biomedical Engineering</em> and <em>Medical Image Computing and Computer-Assisted Intervention (MICCAI)</em>.
-</p>
+	<!-- Start of SCAR -->
+	<div>
+	<h2 class="title">2. <a name="scar"> TEPI in Post-infarction Hearts & Scar-related Ventricular Arrhythmia </a></h2>
+	<p> This research focus on the system development of TEPI to improve its cost-effectiveness in clinical practice. Major developments include:
+		<ul>
+			<li> ECG sensing (data acquisition) on the body surface</li>
+			<li> Better and more efficient anatomical modeling (data processing)</li>
+			<li> High-performance computing environment to accelerate TEPI computation.</li>
+		</ul>	
+	</p>
+	<center> <img src="images/tepi2.jpg"> </center>
+	<p>Research has been published in places such as <em>IEEE Transactions on Medical Imaging</em>, <em> IEEE Conference on Computer Vision and 
+	Pattern Recognition</em>, and <em>Medical Image Computing and Computer-Assisted Intervention (MICCAI)</em>.</p> <br><p class="pull-right"><a href="">Back to top</a></p>
+	<!-- End of SCAR -->	
+	</div>
 
-</div>
-
-<div>
-<h2>2. <a name="scar"> TEPI in Post-infarction Hearts & Scar-related Ventricular Arrhythmia </a></h2>
-
-<p>
-This research focus on the system development of TEPI to improve its cost-effectiveness in clinical practice. Major developments include:
-	<ul>
-		<li> ECG sensing (data acquisition) on the body surface</li>
-		<li> Better and more efficient anatomical modeling (data processing)</li>
-		<li> High-performance computing environment to accelerate TEPI computation.</li>
-	</ul>	
-</p>
-<center> <img src="images/tepi2.jpg"> </center>
-<br>
-<p>Research has been published in places such as <em>IEEE Transactions on Medical Imaging</em>, <em> IEEE Conference on Computer Vision and Pattern Recognition</em>, and <em>Medical Image Computing and Computer-Assisted Intervention (MICCAI)</em>.
-</p>
-</div>
-
-<div>
-<h2>3. <a name="afib">Non-invasive Computational Imaging of Atrial Fibrillation </a></h2>
-
-<p>
-Atrial Fibrillation (Afib) is the most common type of heart arrhythmia seen in people. We tested the feasibility of using non-invasive computational imaging to compute and visualize such arrhythmias in 3D. A vest of 120 electrodes is used to collect the heart's output signal data. MRI images are used to manually construct a model of the patient's heart. We use Tikhonov regularization to generate the voltages on the heart from the input data. When a person has Afib, his/her left and right atria beat irregularly, often reducing blood flow to the body. Our study concentrates on the identification of electrical rotors and ectopic foci that occur during Afib, using both dominant frequency analysis and phase mapping. Our results will help increase the success of ablation procedures, a method of reversing Afib.
-</p>
-<center>
-<video controls type="vidoe/mp4" width="800" height="450"
-  src="videos/afib_phase.mp4">
-</center>
-</div>
-
+	<!-- Start of AFIB -->	
+	<div>
+	<h2 class="title">3. <a name="afib">Non-invasive Computational Imaging of Atrial Fibrillation </a></h2>
+	<p>
+	Atrial Fibrillation (Afib) is the most common type of heart arrhythmia seen in people. We tested the feasibility of using non-invasive computational 
+	imaging to compute and visualize such arrhythmias in 3D. A vest of 120 electrodes is used to collect the heart's output signal data. MRI images are 
+	used to manually construct a model of the patient's heart. We use Tikhonov regularization to generate the voltages on the heart from the input data. 
+	When a person has Afib, his/her left and right atria beat irregularly, often reducing blood flow to the body. Our study concentrates on the identification 
+	of electrical rotors and ectopic foci that occur during Afib, using both dominant frequency analysis and phase mapping. Our results will help increase 
+	the success of ablation procedures, a method of reversing Afib.
+	</p> <br>
+	<center> <video controls type="video/mp4" width="800" height="450" src="videos/afib_phase.mp4"> </center>
 	<br/>
-	 <table class="table table-hover">
-        <thead>
-            <tr>
-                <th>Location</th>
-                <th>Collaborators</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><a href="http://www.hopkinsmedicine.org/som/">Johns Hopkins University School of Medicine</a></td>
-                <td><a href="http://www.hopkinsmedicine.org/profiles/results/directory/profile/0017914/saman-nazarian">Saman Nazarian (MD)</a>, 
-			<a href="http://www.hopkinsmedicine.org/profiles/results/directory/profile/7557337/albert-lardo">Albert Lardo (PhD)</a></td>
-            </tr>
-            <tr>
-                <td><a href="http://www.dal.ca">Dalhousie University</a> &amp; <a href="http://www.cdha.nshealth.ca/about-us/our-facilities/qeii-health-sciences-centre">QEII Health Science Centre</a></td>
-		<td>John Sapp (MD), Milan Horacek (PhD)</td>
-            </tr>
-        </tbody>
-    </table>
+	<table class="table table-hover">
+   <thead>
+   	<tr>
+      	<th>Location</th>
+         <th>Collaborators</th>
+    	</tr>
+   </thead>
+   <tbody>
+      <tr>
+      	<td><a href="http://www.hopkinsmedicine.org/som/">Johns Hopkins University School of Medicine</a></td>
+         <td><a href="http://www.hopkinsmedicine.org/profiles/results/directory/profile/0017914/saman-nazarian">Saman Nazarian (MD)</a>, 
+					<a href="http://www.hopkinsmedicine.org/profiles/results/directory/profile/7557337/albert-lardo">Albert Lardo (PhD)</a></td>
+    	</tr>
+      <tr>
+      	<td><a href="http://www.dal.ca">Dalhousie University</a> &amp; <a href="http://www.cdha.nshealth.ca/about-us/our-facilities/qeii-health-sciences-centre">QEII Health Science Centre</a></td>
+			<td>John Sapp (MD), Milan Horacek (PhD)</td>
+    	</tr>
+   </tbody>
+   </table> <p class="pull-right"><a href="">Back to top</a></p>
+   <!-- End of AFIB -->	
+	</div>
+<!-- End of TEPI -->	
+</div>
 
-     <hr class="featurette-divider">
+<hr class="featurette-divider">
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="">Back to top</a></p>
-        <p>Placeholder · <a href="">Privacy</a> · <a href="">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
+<!-- FOOTER -->
+<footer>
+	<p class="pull-right"><a href="">Back to top</a></p>
+   <p>Placeholder · <a href="">Privacy</a> · <a href="">Terms</a></p>
+</footer>
 
 
     <!-- Bootstrap core JavaScript

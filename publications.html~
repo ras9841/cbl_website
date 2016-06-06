@@ -124,7 +124,7 @@
      <hr class="featurette-divider">
 		
 		<!-- Start of Articles -->
-		<h2 class="title"><a name="articles">Peer-Reviewed Journal Articles</a></h2>	<br>
+		<h2 class="title"><a name="articles">Peer-Reviewed Journal Articles</a></h2>
 		<ol>
 		<li> <a href="people/#azar">Azar Rahimi</a>, John Sapp, <a href="people/#jingjia">Jingjia Xu</a>, Peter Bajorski, 
 		Milan Horacek, and <a href="people/#linwei">Linwei Wang</a>, <em>Examining the Impact of Prior Models in Transmural 
@@ -163,7 +163,7 @@
 		<br><br>
 
 		<!-- Start of Papers -->
-		<h2 class="title"><a name="papers">Peer-Reviewed Conference Papers</a></h2>	<br>
+		<h2 class="title"><a name="papers">Peer-Reviewed Conference Papers</a></h2>
 		<ol start="16">
 		<li> Will Paul, Cecilia Ovesdotter Alm, Reynold Bailey, Joe Geigel, and <a href="people/#linwei">Linwei Wang</a>, Stressed Out: What Speech Tells Us About Stress. Interspeech, Dresden, Germany, September 2015, accepted.
 		<li> Vasudev Bethamcherla, Will Paul, Cecilia Ovesdotter Alm, Reynold Bailey, Joe Geigel, and <a href="people/#linwei">Linwei Wang</a>, Face-Speech Sensor Fusion for Nonintrusive Stress Detection, Facial Analysis, Animation, and Auditory-Visual Speech Processing, Vienna, Austria, September, 2015, accepted.
@@ -220,7 +220,7 @@
 		<br><br>
 		
 		<!-- Start of Editorials -->
-		<h2 class="title"><a name="editorials">Editorials</a></h2>	<br>
+		<h2 class="title"><a name="editorials">Editorials</a></h2>
 		<ol start="65">
 		<li> <a href="people/#linwei">Linwei Wang</a>, Vicky Y. Wang, and Heye Zhang, Image-Based Computational Cardiology: From Data to Understanding, Computational and Mathematical Methods in Medicine, volume 2014: article ID 120960, 2 pages, http://dx.doi.org/10.1155/2014/120960
 		<!-- End of Editorials --> 		
@@ -229,7 +229,7 @@
 		<br><br>		
 		
 		<!-- Start of Abstracts --> 
-		<h2 class="title"><a name="abstracts">Peer-Reviewed Abstracts</a></h2>	<br>		
+		<h2 class="title"><a name="abstracts">Peer-Reviewed Abstracts</a></h2>		
 		<ol start="66">
 		<li> Oscar Camara, Maxime Sermesant, Pablo Lamata, <a href="people/#linwei">Linwei Wang</a>, Mihaela Pop, Jatin Relan, Mathieu De Craene, Herve. Delingette, Huafeng Liu, Steven Niederer, Ali Pashaei, Gernot Plank, Daniel Romero, Rafael Sebastián, Ken C.L. Wong, Heye Zhang, Nicholas Ayache, Alejandro Frangji, Pengcheng Shi, Nic Smith, and Graham Wright: Integration of different cardiac electrophysiological models into a single simulation pipeline. IEEE International Symposium on Biomedical Imaging (ISBI), pp 1429, 2012.
 		<!-- End of Abstracts -->
@@ -238,7 +238,7 @@
 		<br><br>		
 		
 		<!-- Start of Books --> 
-		<h2 class="title"><a name="books">Books and Book Chapters</a></h2> 	<br>	
+		<h2 class="title"><a name="books">Books and Book Chapters</a></h2>	
 		<ol start="67">
 		<li> <a href="people/#linwei">Linwei Wang</a>: Personalized Noninvasive Imaging of 3D Cardiac Electrophysiology. A System Approach: Basics, Methods, Applications. VDM Verlag, 2009, ISBN: 9783639184945
 		<li> <a href="people/#linwei">Linwei Wang</a>, and Pengcheng Shi: Personalized Noninvasive Imaging of Three-Dimensional Volumetric Cardiac Electrophysiology, in “3D Imaging: Theory, Technology and Applications”, Emerson H. Duke and Stephen R. Aquirre (Editors), Nova publishers, 2010, ISBN: 1608768856.		
@@ -248,7 +248,7 @@
 		<br><br>		
 		
 		<!-- Start of Talks -->		
-		<h2 class="title"><a name="talks">Invited Talks</a></h2>	<br>
+		<h2 class="title"><a name="talks">Invited Talks</a></h2>	
 		<ul>
      	<li> <a href="people/#linwei">Linwei Wang</a>: Integrating Physics-Based Models into Transmural Electrocardiographic Imaging, ECG Imaging Workshop, Bad Herrenalb, Germany, March 2015 (keynote)
 Noninvasive Transmural Electrophysiological Imaging of Myocardial Infarction, STAFF Symposium, Boston, MA, September 2014

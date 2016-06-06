@@ -37,23 +37,6 @@
 	color: whitesmoke;
 }
 
-#active_link {
-	background-color: #002d5c;	
-	color: white;
-}
-
-#active_link > a:hover 
-{
-	background-color: #002d5c;
-	color: white;
-}
-
-#active_link > a 
-{
-	background-color: #002d5c;
-	color: white;
-}
-
 a:hover {
 	color: #A89F08; 
 } 
@@ -71,6 +54,24 @@ h2 {
 	text-align: center;
 	margin: auto;
 	margin: auto;
+}
+
+.title {
+	text-align: left;
+	margin-top: 50px;
+}
+
+.title > a {
+	color: #5a5a5a;
+}
+
+.title > a:hover {
+	color: #5a5a5a;
+	text-decoration: none;
+}
+
+.title > a:focus {
+	text-decoration: none;
 }
 
 img {
@@ -94,9 +95,3 @@ p {
 .carousel .item {
 	background-color: #002d5c;
 }
-
-
-
-
-
-

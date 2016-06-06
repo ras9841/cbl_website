@@ -67,7 +67,7 @@
                     <li><a href="center-updates.html">Center Updates</a></li>
                   </ul>
                 </li>
-		<li><a href="">Publications</a></li>
+			<li><a href="publications.html">Publications</a></li>
               </ul>
             </div>
           </div>
@@ -101,7 +101,7 @@
 <tbody>
 
 <tr>
-	<td><div class="col-lg-8"><img class="profpic" src="images/jingjia_profile.jpg"><h4><em>Jingjia <br>Xu</em></h4></div></td>
+	<td><div class="col-lg-8"><img class="profpic" src="images/jingjia_profile.jpg"><h4><em>Jingjia Xu</em></h4></div></td>
 	<td> <a name="jingjia">Jingjia</a>'s research focuses on the integration of dynamic models and spatial low-dimensional structural models in regularizing the understanding of data. 
 	On top of her productive publication record in IEEE TMI, CVPR, MICCAI, etc, Jingjia was also one of the three finalist for GREAT AWARD of Digital Rochester in Student Achievement 
 	Award, the recipient of the Student Travel Award for MICCAI 2014, the Grace Hopper Celebration Scholarship Grant 2014, and several more awards and scholarships from within RIT. 
