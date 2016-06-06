@@ -80,6 +80,11 @@ img {
 	padding-bottom: 10px;
 }
 
+.img-front {
+	height: 300px;
+	width: 400px;
+}
+
 .profpic {
 	height: 200px; 
 	width: 160px;
