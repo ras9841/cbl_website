@@ -67,7 +67,7 @@
                     <li><a href="center-updates.html">Center Updates</a></li>
                   </ul>
                 </li>
-		<li><a href="">Publications</a></li>
+		<li><a href="publications.html">Publications</a></li>
               </ul>
             </div>
           </div>
@@ -109,7 +109,7 @@
             </tr>
             <tr>
                 <td>3</td>
-                <td><a href="#afib">Atrial Flutter and Atrial Fibrillation</a></td>
+                <td><a href="#atrial">Analysis of Atrial Arrhythmias </a></td>
               	<td><a href="people.html#roland">Roland Sanford</a>, <a href="people.html#linwei">Linwei Wang</a></td>
             </tr>
         </tbody>
@@ -147,14 +147,15 @@
 
 	<!-- Start of AFIB -->	
 	<div>
-	<h2 class="title">3. <a name="afib">Non-invasive Computational Imaging of Atrial Fibrillation </a></h2>
+	<h2 class="title">3. <a name="atrial">Analysis of Atrial Arrhythmias</a></h2>
 	<p>
 	Atrial Fibrillation (Afib) is the most common type of heart arrhythmia seen in people. We tested the feasibility of using non-invasive computational 
 	imaging to compute and visualize such arrhythmias in 3D. A vest of 120 electrodes is used to collect the heart's output signal data. MRI images are 
 	used to manually construct a model of the patient's heart. We use Tikhonov regularization to generate the voltages on the heart from the input data. 
 	When a person has Afib, his/her left and right atria beat irregularly, often reducing blood flow to the body. Our study concentrates on the identification 
 	of electrical rotors and ectopic foci that occur during Afib, using both dominant frequency analysis and phase mapping. Our results will help increase 
-	the success of ablation procedures, a method of reversing Afib.
+	the success of ablation procedures, a method of reversing Afib. In order to validate our pipeline, we conduct our analysis on patients diagnosed with 
+	atrial flutter. Our results are then compared to the output of invasive techniques.
 	</p> <br>
 	<center> <video controls type="video/mp4" width="800" height="450" src="videos/afib_phase.mp4"> </center>
 	<br/>

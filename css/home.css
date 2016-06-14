@@ -11,15 +11,25 @@
     margin: 0px;
 }
 
+
 .carousel-caption p {
 	font-size: 16px;
 	padding-bottom: 5%;
 }
 
+.carousel-inner {
+	padding-top: 0px;
+}
+
+#markers {
+	margin-top: 20px;
+}
+
 .well {
+	padding-top: 10px;
 	background-color: #A8A8A8;
-	width: 75%;
-	height: 85%;
+	width: 800px;
+	height: 400px;
 	margin: auto;
 	border-width: 2px;
 	margin-bottom: 5px;
@@ -99,4 +109,8 @@ p {
 
 .carousel .item {
 	background-color: #002d5c;
+}
+
+.navbar-wrapper {
+	display: block;
 }

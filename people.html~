@@ -99,43 +99,32 @@
 <center><b><h3>Ph.D Students</h3></b></center>
 <table class="table">
 <tbody>
-
 <tr>
-	<td><div class="col-lg-8"><img class="profpic" src="images/jingjia_profile.jpg"><h4><em>Jingjia Xu</em></h4></div></td>
-	<td> <a name="jingjia">Jingjia</a>'s research focuses on the integration of dynamic models and spatial low-dimensional structural models in regularizing the understanding of data. 
-	On top of her productive publication record in IEEE TMI, CVPR, MICCAI, etc, Jingjia was also one of the three finalist for GREAT AWARD of Digital Rochester in Student Achievement 
-	Award, the recipient of the Student Travel Award for MICCAI 2014, the Grace Hopper Celebration Scholarship Grant 2014, and several more awards and scholarships from within RIT. 
-	<br><br>For more information, please visit her 
-	<a href="https://sites.google.com/site/jingjiaxu/">homepage</a>.<br><br> Jingjia has worked at the CBL since <em>2011</em>. <p class="pull-right"><a href="">Back to top</a></p></td> 
-</tr>
-
-<tr>
-	<td><div class="col-lg-8"><img class="profpic" src="images/jwala_profile.jpg"><h4><em>Jwala Dhamala</em></h4></div></td>
+	<td><div class="col-lg-8"><img class="profpic" src="images/jwala_photo.jpg"><h4><em>Jwala Dhamala</em></h4></div></td>
 	<td> <a name="jwala">Jwala</a>'s research interest centers around the data inversion of complex physical systems through parameter estimation. 
 	<br><br> For more information, please visit her <a href="http://www.jwaladhamala.com/">homepage</a>.	
 	<br><br> Jwala has worked at the CBL since <em>2014</em>.<p class="pull-right"><a href="">Back to top</a></p>
 </tr>
 
 <tr>
-	<td><div class="col-lg-8"><img class="profpic" src="images/azar_profile.jpg"><h4><em>Azar Rahimi</em></h4></div></td>
-	<td> <a name="azar">Azar</a>'s research focuses on the sensitivity of inverse problems to model assumptions and uncertainties,  
-	including uncertainties in the input models constructed from data and assumptions on the regularization models. Azar’s record 
-	of awards include the Best Paper Award from ISBI 2014, the Gordon K. Moe Young Investigator Award from UNYCES 2014, and the 
-	<a href="http://www.hhmi.org/programs/med-into-grad-initiative"> Howard Hughes Medical Institute Med-into-Grad Fellowship </a> 
-	in Cardiovascular Science. 
-	<br><br> Azar worked at the CBL from <em>2010 - 2015</em>.<p class="pull-right"><a href="">Back to top</a></p></td> 
+	<td><div class="col-lg-8"><img class="profpic" src="images/mohammed_prof.png"><h4><em>Mohammed Alawad</em></h4></div></td>
+	<td> <a name="mohammed">Mohammed</a> Mohammed is a computer engineer with a master's degree in Bioinformatics. As a current PhD student at CBL, his research focuses on 
+	creating a generalized model capable of localizing the origin of ventricular arrhythmias using a combination of advanced machine learning techniques and computer 
+	simulations. 
+	<br><br> Mohammed has worked at the CBL since <em>2016</em>.<p class="pull-right"><a href="">Back to top</a></p>
 </tr>
-
 <tr>
 	<td><div class="col-lg-8"><img class="profpic" src="images/sandesh.jpg"><h4><em>Sandesh Ghimire</em></h4></div></td>
 	<td> <a name="sandesh">Sandesh</a>'s potential research direction will center around joint electro-mechanic analysis of the heart combining multiple data modalities 
-	including ECG and tomographic scans. <br><br> Sandesh will start work at the CBL in the Fall of <em>2015</em>. <p class="pull-right"><a href="">Back to top</a></p>
+	including ECG and tomographic scans. <br><br> Sandesh has worked at the CBL since <em>2015</em>. <p class="pull-right"><a href="">Back to top</a></p>
 </tr>
 
 <tr>
 	<td><div class="col-lg-8"><img class="profpic" src="images/omar.jpg"><h4><em>Omar Gharbia</em></h4></div></td>
 	<td> <a name="omar">Omar</a>'s potential research direction will center around experimental validation, clinical application, and methodological improvement of TEPI
-	 in various cardiac diseases <br><br> Sandesh will start work at the CBL in the Summer of <em>2015</em>. <p class="pull-right"><a href="">Back to top</a></p>
+	 in various cardiac diseases
+	<br><br> For more information, please see his <a href="images/omar_CV.pdf">CV</a>.	 
+	 <br><br> Omar has worked at the CBL since <em>2015</em>. <p class="pull-right"><a href="">Back to top</a></p>
 </tr>
 </tbody>
 <!-- End of PhD -->

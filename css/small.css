@@ -6,6 +6,10 @@
 	#d_line {
 		display: block;
 	}
+	
+	#spacer {
+		display: none;	
+	}
 
 	.marketing {
 		margin-top: 80px;

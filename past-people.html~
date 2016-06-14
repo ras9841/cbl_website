@@ -67,7 +67,7 @@
                     <li><a href="center-updates.html">Center Updates</a></li>
                   </ul>
                 </li>
-		<li><a href="">Publications</a></li>
+			<li><a href="publications.html">Publications</a></li>
               </ul>
             </div>
           </div>
@@ -81,9 +81,10 @@
 	<div class="jumbotron line"></div>
 
 <div class="container marketing">
-
-  <center><b><h3>Other Projects & Co-Advisees</h3></b>
-     <p> <a href="http://www.cs.rit.edu/~graphics/lab/sensing.html">Multi-modal sensor fusion for computational physiology:</a>  This is a collaborative new project with co-investigators <a href="https://dl.dropboxusercontent.com/u/585585/RESOURCEWEBSITE1/index.html">Cecilia Ovesdotter Alm</a>, <a href="http://www.cs.rit.edu/~rjb/">Reynold Bailey</a>, and  <a href="http://www.cs.rit.edu/~jmg/">Joe Geigel.</a> Student researchers in this team include:</p></center>
+  <center><h1>Other Projects & Co-Advisees</h1></b>
+     <h3><b> <a href="http://www.cs.rit.edu/~graphics/lab/sensing.html">Multi-modal sensor fusion for computational physiology</a> </b></h3>  </center>
+     This is a collaborative new project with co-investigators <a href="https://dl.dropboxusercontent.com/u/585585/RESOURCEWEBSITE1/index.html">Cecilia Ovesdotter Alm</a>, 
+     <a href="http://www.cs.rit.edu/~rjb/">Reynold Bailey</a>, and  <a href="http://www.cs.rit.edu/~jmg/">Joe Geigel.</a> Student researchers in this team include:</p>
       <table class="table">
       <tbody>
       <tr>
@@ -99,7 +100,9 @@
     </tbody>
   </table>
   
-  <br>
+<hr class="featurette-divider">  
+    
+	<center><h1>Additional People</h1></center>
 
   <center><b><h3>High School Research Interns</h3></b>
 <p> The CBL is part of the Career Exploration Program by the Pittsford School district. Since 2012, we have hosted research interns from local high schools each summer! </p></center>
@@ -121,7 +124,7 @@
 </tbody>
 </table>
 
-<hr class="featurette-divider">
+
   <center><b><h3>Past Students</h3></b></center><br>
 <table class="table">
 <thead>
@@ -131,11 +134,23 @@
 	<th>Location</th>
 </thead>
   <tbody>
+
 	<tr>
-        <td>Azar Rahimi Dehaghani<br> Computing & Information Sciences (RIT)</td> <td>2010-2015</td> <td> <em><a href="images/Azar_Thesis_FinalVersion.pdf">Uncertainty Quantification and Reduction in Cardiac Electrophysiological Imaging</a><em>.<br>Defended April 2015.</td> <td>Now working for Microsoft <br>(Seattle, WA)</td>
+		<td><a name="jingjia">Jingjia Xu </a><br> <em>Computing & Information Sciences</em></td>
+		<td>2011-2016</td>
+		<td><em>Bayesian Inference with Combined Dynamic and Sparsity Models:  Application in 3D Electrophysiological Imaging</em> <br> Defended February 2016</td>
+		<td>Now working for Siemens.</td>
+	</tr>  
+  
+	<tr>
+        <td><a name="azar">Azar Rahimi Dehaghani </a><br> Computing & Information Sciences</td>  
+        <td>2010-2015</td>
+        <td> <em><a href="images/Azar_Thesis_FinalVersion.pdf">Uncertainty Quantification and Reduction in Cardiac Electrophysiological Imaging</a></em>.<br>Defended April 2015.</td> 
+        <td>Now working for Microsoft.</td>
 	</tr>
 	<tr>
-        <td>Hongda Mao<br> Computing & Information Sciences (RIT)</td> <td>2009-2015</td> <td><em>Integrated Cardiac Electromechanics: Modeling and Personalization</em>. <br>Co-advisee. Defended February 2015.</td> <td>Now working for <a href="http://www.alivecor.com/home">AliveCor.</a></td>
+        <td>Hongda Mao<br> Computing & Information Sciences</td> <td>2009-2015</td> <td><em>Integrated Cardiac Electromechanics: Modeling and Personalization</em>. <br>Co-advisee. Defended February 2015.</td> 
+        <td>Now working for AliveCor.</td>
 	</tr>
 </tbody>
 </table>
@@ -148,13 +163,13 @@
 </thead>
   <tbody>
 	<tr>
-        <td>Sairamesh Krithika<br> Computer Science (RIT)</td> <td>2013-2014</td><td>RIT Kodak Endowed Chair Funds on Multi-Modal Sensor Fusion for Computational Physiology.</td> 
+        <td>Sairamesh Krithika<br> Computer Science </td> <td>2013-2014</td><td>RIT Kodak Endowed Chair Funds on Multi-Modal Sensor Fusion for Computational Physiology.</td> 
 	</tr>
 	<tr>
-        <td>Balaji Iyer<br> Computer Science (RIT)</td> <td>2013-2014</td> <td>Capstone project: <em>Data-Driven Understanding of Cardiac Rhythm Disorder</em></td> 
+        <td>Balaji Iyer<br> Computer Science </td> <td>2013-2014</td> <td>Capstone project: <em>Data-Driven Understanding of Cardiac Rhythm Disorder</em></td> 
 	</tr>
 	<tr>
-        <td>Martin Corraine<br> Computer Science (RIT)</td> <td>2011-2012</td> <td>Master thesis: <em>GPU/CUDA Acceleration of Transmural Electrophysiological Imaging</em>.<br>Co-advisee</td> 
+        <td>Martin Corraine<br> Computer Science </td> <td>2011-2012</td> <td>Master thesis: <em>GPU/CUDA Acceleration of Transmural Electrophysiological Imaging</em>.<br>Co-advisee</td> 
 	</tr>
 </tbody>
 </table>
@@ -168,25 +183,25 @@
 </thead>
  <tbody>
 	<tr>
-        <td>Raymond Bremner<br>Computer Engineering (RIT)</td> <td>2015 Spring</td><td>REU research trainee.</td> 
+        <td>Raymond Bremner<br>Computer Engineering </td> <td>2015 Spring</td><td>REU research trainee.</td> 
 	</tr>
 	<tr>
-        <td>Tom Becker<br>Computer Engineering (RIT)</td> <td>2014-2015</td><td>REU research trainee.</td> 
+        <td>Tom Becker<br>Computer Engineering </td> <td>2014-2015</td><td>REU research trainee.</td> 
 	</tr>
 	<tr>
-        <td>Brendan John<br>Computer Science (RIT)</td> <td>2013-2014</td><td>RIT Kodak Endowed Chair Funds on Multi-Modal Sensor Fusion for Computational Physiology. <br>Co-advise. </td> 
+        <td>Brendan John<br>Computer Science </td> <td>2013-2014</td><td>RIT Kodak Endowed Chair Funds on Multi-Modal Sensor Fusion for Computational Physiology. <br>Co-advise. </td> 
 	</tr>
 	<tr>
-        <td>Taylor Kilroy<br>Computer Science (RIT)</td> <td>2013-2014</td><td>RIT Kodak Endowed Chair Funds on Multi-Modal Sensor Fusion for Computational Physiology. <br>Co-advise. </td> 
+        <td>Taylor Kilroy<br>Computer Science </td> <td>2013-2014</td><td>RIT Kodak Endowed Chair Funds on Multi-Modal Sensor Fusion for Computational Physiology. <br>Co-advise. </td> 
 	</tr>
 	<tr>
-        <td>Robin Li<br>Computer Science (RIT)</td> <td>2013 Summer</td><td>McNair Scholar Program.</td> 
+        <td>Robin Li<br>Computer Science </td> <td>2013 Summer</td><td>McNair Scholar Program.</td> 
 	</tr>
 	<tr>
-        <td>Karna Priya<br>Biomedical Science (RIT)</td> <td>2013 Summer</td><td>REU research trainee.</td> 
+        <td>Karna Priya<br>Biomedical Science </td> <td>2013 Summer</td><td>REU research trainee.</td> 
 	</tr>
 	<tr>
-        <td>Team ION<br>Software Engineering (RIT)</td> <td>2009-2010</td><td>Capstone Senior Project (Brian Call, Devin Lane, Peter Lavellee, Brad Pease, and Richard Stack): <br><em><a href="https://www.se.rit.edu/content/development-computational-platform-modeling-and-simulation-cardiac-physiology-and-pathophysi">Development of a Computational Platform for the Modeling and Simulation of Cardiac Physiology and Pathophysiology</em></a></td> 
+        <td>Team ION<br>Software Engineering </td> <td>2009-2010</td><td>Capstone Senior Project (Brian Call, Devin Lane, Peter Lavellee, Brad Pease, and Richard Stack): <br><em><a href="https://www.se.rit.edu/content/development-computational-platform-modeling-and-simulation-cardiac-physiology-and-pathophysi">Development of a Computational Platform for the Modeling and Simulation of Cardiac Physiology and Pathophysiology</em></a></td> 
 	</tr>
 </tbody>
 </table>
