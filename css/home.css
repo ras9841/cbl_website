@@ -27,15 +27,20 @@
 
 .well {
 	padding-top: 10px;
-	background-color: #A8A8A8;
-	width: 800px;
+	background-color: lightgrey;
+	width: auto;
 	height: 400px;
 	margin: auto;
 	border-width: 2px;
 	margin-bottom: 5px;
-	color: whitesmoke;
 }
 
+.well > p {
+	text-align: center;
+}
+.contact-well > p {
+	text-align: center;
+}
 .contact-well {
 	background-color: #002d5c;
 	width: 75%;
@@ -65,6 +70,8 @@ h2 {
 	margin: auto;
 	margin: auto;
 }
+
+
 
 .title {
 	text-align: left;
@@ -105,12 +112,38 @@ img {
 p {
 	padding-top: 10px;
 	margin: auto;
+	text-align: justify;
 }
 
 .carousel .item {
 	background-color: #002d5c;
 }
 
-.navbar-wrapper {
-	display: block;
+.carousel-caption {
+	color: #5a5a5a;
+	text-shadow: none;
+}
+
+.btn {
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.col-lg-6 > h2 {
+	height: 65px;
+}
+
+.col-lg-6 > p {
+	height: 130px;
+}
+
+#group-shot {
+	display: none;
+	height: auto;
+}
+
+#group-pic {
+	height: auto;
+	width: 80%;
 }

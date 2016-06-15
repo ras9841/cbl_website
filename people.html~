@@ -108,15 +108,15 @@
 
 <tr>
 	<td><div class="col-lg-8"><img class="profpic" src="images/mohammed_prof.png"><h4><em>Mohammed Alawad</em></h4></div></td>
-	<td> <a name="mohammed">Mohammed</a> Mohammed is a computer engineer with a master's degree in Bioinformatics. As a current PhD student at CBL, his research focuses on 
+	<td> <a name="mohammed">Mohammed</a> is a computer engineer with a master's degree in Bioinformatics. As a current PhD student at CBL, his research focuses on 
 	creating a generalized model capable of localizing the origin of ventricular arrhythmias using a combination of advanced machine learning techniques and computer 
 	simulations. 
 	<br><br> Mohammed has worked at the CBL since <em>2016</em>.<p class="pull-right"><a href="">Back to top</a></p>
 </tr>
 <tr>
 	<td><div class="col-lg-8"><img class="profpic" src="images/sandesh.jpg"><h4><em>Sandesh Ghimire</em></h4></div></td>
-	<td> <a name="sandesh">Sandesh</a>'s potential research direction will center around joint electro-mechanic analysis of the heart combining multiple data modalities 
-	including ECG and tomographic scans. <br><br> Sandesh has worked at the CBL since <em>2015</em>. <p class="pull-right"><a href="">Back to top</a></p>
+	<td> <a name="sandesh">Sandesh</a>'s research is focused around probabilistic learning and inference in inverse electrocardiography and imaging.
+	<br><br> Sandesh has worked at the CBL since <em>2015</em>. <p class="pull-right"><a href="">Back to top</a></p>
 </tr>
 
 <tr>

@@ -3,12 +3,20 @@
 		display: none;
 	}
 
+	#group-shot {
+		display: block;	
+	}
+	
 	#d_line {
 		display: block;
 	}
+	
+	#spacer {
+		display: none;	
+	}
 
 	.marketing {
-		margin-top: 80px;
+		margin-top: 10px;
 	}
 	
 	.navbar-inverse .navbar-toggle{
@@ -24,10 +32,35 @@
 	.navbar-inverse .navbar-nav > li > a:hover {
    	color: #fff;
 	}
+	
+	.navbar-inverse .navbar-nav > li > a:hover {
+    color: #A89F08;
+}
 }
 
-@media only screen and (max-width: 575px){
-	h2 {
-		font-size: 21px;
+
+@media only screen and (max-width: 1280px){
+	.col-lg-6 > h2 {
+		height: auto;
+	}
+
+	.col-lg-6 > p {
+		height: auto;
+	}
+	
+	.btn {
+		margin-top: 10px;	
+	}
+	
+	.navbar-inverse .navbar-nav > li > a:hover {
+    color: #A89F08;
+}
+}
+
+@media(max-width: 500px)
+{
+	.img-front {
+		height: auto;
+		width: 180px;
 	}
 }
