@@ -20,7 +20,7 @@
 	}
 	
 	.navbar-inverse .navbar-toggle{
-		background-color: #002d5c
+		background-color: #002d5c;
 	}
 	
 	.navbar-inverse .navbar-toggle:focus, 
@@ -51,7 +51,19 @@
 	
 	.navbar-inverse .navbar-nav > li > a:hover {
     color: #A89F08;
+	}
 }
+
+@media(max-width: 783px)
+{
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    	background-color: white;
+    	color: black;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+    	color: #A89F08;
+    	background-color: white;
+	}
 }
 
 @media(max-width: 500px)

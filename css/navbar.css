@@ -25,7 +25,7 @@
 	color: #000000;
 }
 
-div#navbar {   .carousel .item
+div#navbar .carousel .item {   
     width: 507.586px;
     margin: auto;
 }
@@ -64,6 +64,7 @@ div#navbar {
 	background-color: #002d5c;	
 	color: white;
 }
+
 
 #active_link > a:hover 
 {
