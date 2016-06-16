@@ -105,7 +105,7 @@
             <tr>
                 <td>2</td>
                 <td><a href="#scar">Post-infarction Hearts and Scar-related Ventricular Arrhythmia</a></td>
-              <td><a href="people.html#omar">Omar Gharbia</a>, <a href="people.html#jingjia">Jingjia Xu</a>, <a href="people.html#linwei">Linwei Wang</a></td>
+              <td><a href="people.html#omar">Omar Gharbia</a>, <a href="past-people.html#jingjia">Jingjia Xu</a>, <a href="people.html#linwei">Linwei Wang</a></td>
             </tr>
             <tr>
                 <td>3</td>
@@ -117,9 +117,10 @@
 	</div>
       <hr class="featurette-divider">
 
+	<ol>
 	<!-- Start of TAD -->
 	<div>
-	<h2 class="title">1. <a name="tad">Theoretical and Algorithmic Development of TEPI </a></h2>
+	<h2><li class="title"><a name="tad">Theoretical and Algorithmic Development of TEPI </a></h2>
 	<p>
 		This part of the research closely ties to the foundational work supported by the <a href="career_page.html"> CAREER project </a>. 
 	</p> <br>
@@ -131,7 +132,7 @@
 
 	<!-- Start of SCAR -->
 	<div>
-	<h2 class="title">2. <a name="scar"> TEPI in Post-infarction Hearts & Scar-related Ventricular Arrhythmia </a></h2>
+	<h2><li class="title"> <a name="scar"> TEPI in Post-infarction Hearts & Scar-related Ventricular Arrhythmia </a></h2>
 	<p> This research focus on the system development of TEPI to improve its cost-effectiveness in clinical practice. Major developments include:
 		<ul>
 			<li> ECG sensing (data acquisition) on the body surface</li>

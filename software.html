@@ -113,35 +113,52 @@
                         </div>
       <hr class="featurette-divider">
 
+<ol>
 <!-- Start of ECG Viewer -->
 <div>
-<h2 class="title">1. <a name="ecgv">ECG Viewer</a></h2> <br>
+<h2><li class="title"> <a name="ecgv">ECG Viewer</a></h2> <br>
+
+<!-- Start slideshow -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
+      <div id = "markers">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>   
       </ol>
+      </div>
       <div class="carousel-inner" role="listbox">
-        <div class="item next left" style="background: #D4D3D3">
+       <div class="item next left">
         <div class="container">
             <div class="carousel-caption">
-              <img src="images/snapshot1.png" height="370" width="730">
+            	<div class="well">   
+            		<div>
+              			<img src="images/snapshot1.png" height="275px" style="margin-top: 50px">
+              		</div>
+              	</div>              
             </div>
           </div>
         </div>
-        <div class="item" style="background: #D4D3D3">
-          <div class="container">
+        <div class="item">
+        <div class="container">
             <div class="carousel-caption">
-		<img src="images/snapshot2.png" height="370" width="370">
+            <div class="well">   
+            		<div>
+              			<img src="images/snapshot2.png" height="275px" style="margin-top: 50px">
+              		</div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="item active left" style="background: #D4D3D3">
+        <div class="item active left">
           <div class="container">
             <div class="carousel-caption">
-		<img src="images/snapshot3.png" height="370" width="370">
+            <div class="well">            		
+            		<div>
+              			<img src="images/snapshot3.png" height="275px" style="margin-top: 50px">
+              		</div>
+            </div>
             </div>
           </div>
         </div>
@@ -154,7 +171,10 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
+      
+<!-- End slideshow -->
     </div>
+
 
 <p> ECGViewer imports different formats of ECG data (ranging from 8 to 120 leads) collected from experiments and performs initial processing and annotation. This prepares the data for further use in computation. Its main function includes:
 <ol>
@@ -178,19 +198,16 @@
 </div>
 
 <!-- Start of CUDA -->
-<h2 class="title">2. <a name="cuda">CUDA Acceleration for Compute-Intensive Applications</a> </h2>
-<br>
+<h2><li class="title"> <a name="cuda">CUDA Acceleration for Compute-Intensive Applications</a> </h2>
 <div>
-
 <p>By utilizing the massively parallel operation of the GPU, compute-intensive applications such as TEPI can be executed much faster than a standard sequential approach.  Using nVidia's CUDA technology, matrix operations can take a fraction of the time compared to a conventional CPU. In a previous CUDA conversion of TEPI (relevant publication), the use of GPU accelerates the computation of TEPI from ~200 hours (on 2 x 3 GHz Quad-Core Intel Xeon) to ~ 20-120 minutes (on a NVIDIA Tesla K20m card). </p>
 <p>
 Example publications & software:
-
-<a href = "images/Accelerating noninvasive transmural electrophysiological imaging.pdf" > <br>Martin Corraine, Sonia Lopez, and Linwei Wang: GPU Accelerations of Transmural Electrophysiological Imaging. Computing in Cardiology (CinC), 2012, Pp 849-952</a></p>
-
+<a href = "images/Accelerating noninvasive transmural electrophysiological imaging.pdf" > 
+<br>Martin Corraine, Sonia Lopez, and Linwei Wang: <em>GPU Accelerations of Transmural Electrophysiological Imaging</em>. <u>Computing in Cardiology (CinC)</u>, 2012, Pp 849-952</a></p>
 
 </div>
-
+</ol>
 <div>
 
 
